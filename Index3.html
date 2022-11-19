@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://perfectseowebsites.com/TickTackToe/StyleSheets/IWantAWaffle3.css">
+<script src="https://perfectseowebsites.com/TickTackToe/GameScript.js">
+</script>
+</head>
+<body>
+<article>
+<h1 id="TextArea">Leonard's Tick Tack Toe</h1>
+<div class="PickAPlayerSection">
+<h2>Pick A Starting Player</h2>
+<form>
+<label class="container">One Player
+  <input type="radio" value="OnePlayers" checked="checked" name="radio" id="OnePlayers">
+</label>
+<label class="container">Two Players
+  <input type="radio" name="radio" value="TwoPlayers" id="TwoPlayers">
+</label>
+</div>
+
+<div class="PickAPlayerSection">
+<div class="StartingButton" onclick="StartGame()">
+<p>Start</p>
+</div>
+<div class="StartingButton" onclick="Restart()">
+<p>Restart</p>
+</div>
+<div class="StartingButton StartHidden" onclick="PlayAgain()" id="PlayAgainButton">
+<p>Play Again</p>
+</div>
+</div>
+</form>
+<div class="Players" id="P1">
+Player 1:
+</div>
+<div class="Players2" id="P2">
+Player 2:
+</div>
+<div class="TimerSection" id="Timer">
+Time: Game Not Started Yet
+</div>
+
+<div class="grid-container">
+  <div class="grid-item" onclick="MarkSpot1()"><p id="Spot1"></p></div>
+  <div class="grid-item" onclick="MarkSpot2()"><p id="Spot2"></p></div>
+  <div class="grid-item" onclick="MarkSpot3()"><p id="Spot3"></p></div>  
+  <div class="grid-item" onclick="MarkSpot4()"><p id="Spot4"></p></div>
+  <div class="grid-item" onclick="MarkSpot5()"><p id="Spot5"></p></div>
+  <div class="grid-item" onclick="MarkSpot6()"><p id="Spot6"></p></div>  
+  <div class="grid-item" onclick="MarkSpot7()"><p id="Spot7"></p></div>
+  <div class="grid-item" onclick="MarkSpot8()"><p id="Spot8"></p></div>
+  <div class="grid-item" onclick="MarkSpot9()"><p id="Spot9"></p></div>  
+</div>
+<div class="TurnCounter"><h2 id="WhichTurn">No Turn Yet</h2></div>
+
+</article>
+</body>
+</html>
