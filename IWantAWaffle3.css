@@ -1,0 +1,103 @@
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: green;
+  padding: 10px;
+}
+.grid-item {
+  background-color: white;
+  border: 1px solid #646c7a;
+  padding: 20px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.StartingButton
+{
+background-color: grey;
+color: white;
+font-size: 15px;
+text-align: center;
+padding-left: 10px;	
+padding-right: 10px;	
+display: inline-block;
+cursor: pointer;
+}
+.PickAPlayerSection
+{
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+.TurnCounter
+{
+color: green;
+font-weight: bold;
+margin-left: 20px;
+display: inline-block;
+text-align: center;
+}
+.TurnCounter2
+{
+color: red;
+font-weight: bold;
+margin-left: 20px;
+display: inline-block;
+text-align: center;
+}
+.StartHidden
+{
+display: none;	
+}
+.TimerSection
+{
+font-weight: bold;
+font-size: 15px;	
+margin-left: 20px;
+margin-bottom: 5px;
+}
+.HideMe
+{
+display: none;	
+}
+.ShowMe
+{
+display: inline-block;	
+}
+.Players
+{
+font-weight: bold;
+font-size: 15px;	
+color: green;
+margin-left: 20px;
+margin-bottom: 5px;
+}
+.Players2
+{
+font-weight: bold;
+font-size: 15px;	
+color: red;
+margin-left: 20px;
+margin-bottom: 5px;
+}
+#WhichTurn
+{
+text-align: center;
+}
+h1
+{
+text-align: center;
+font-size: 30px;
+}
+article
+{
+background-color: beige;
+margin: 10px;
+border: 2px solid grey;
+padding: 5px;
+}
+body
+{
+background-color: light-grey;
+}
